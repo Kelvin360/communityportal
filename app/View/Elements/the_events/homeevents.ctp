@@ -1,0 +1,1 @@
+events here - [almost] the same as activities - Copy and paste for the most parts.
