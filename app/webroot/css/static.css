@@ -542,6 +542,15 @@ p.error em {
 	        transform: scale(1) rotate(90deg) translateX(70px) translateY(0px) skewX(0deg) skewY(0deg);	
 }
 
+.rotate_minus_90_degrees
+{
+	-moz-transform: scale(1) rotate(-90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-webkit-transform: scale(1) rotate(-90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-o-transform: scale(1) rotate(-90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-ms-transform: scale(1) rotate(-90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	transform: scale(1) rotate(-90deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);	
+}
+
 .fz12
 {
 	font-size: 12px;

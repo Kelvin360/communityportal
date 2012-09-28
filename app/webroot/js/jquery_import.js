@@ -26,6 +26,31 @@ $(document).ready(function()
 			    }
 			}, 1000);			
 		}
+		
+	/*######################## WEATHER ########################################*/
+	/*######################## WEATHER ########################################*/
+	/*######################## WEATHER ########################################*/
+	
+	$.simpleWeather({
+	        location: 'Utrecht, Netherlands',
+	        unit: 'c',
+	        success: function(weather)
+			{	
+				var todayHighLow 	= 	'Today\'s High: '+ weather.high+'&deg; '+weather.units.temp+'<br />Today\'s Low: '+weather.low+'&deg; '+weather.units.temp;
+				var currentTemp		=	'Current Temp: '+ weather.temp+'&deg; '+weather.units.temp+ '<br />';
+				var currentThumbail	=	'<img src="'+weather.thumbnail+'">';
+				
+				$(".weather #city").html(weather.city);
+				$(".weather #todayHighLow").html(todayHighLow);
+				$(".weather #currentTempAndCurrentThumbail").html(currentTemp + currentThumbail);				
+			},
+	        error: function(error) 
+			{ 
+				$(".weather").html('Yahoo weather API unresponsive.');
+			}
+	});	
+	
+					
 
 	/*######################## OTHER ########################################*/
 	/*######################## OTHER ########################################*/

@@ -38,6 +38,8 @@
 		echo $this->Html->script('jquery.fancybox-buttons.js');
 		echo $this->Html->script('jquery.fancybox-media.js');
 		echo $this->Html->script('jquery.fancybox-thumbs.js');
+		echo $this->Html->script('jquery.fancybox-thumbs.js');
+		echo $this->Html->script('jquery.simpleWeather.js');
 		echo $this->Html->script('jquery_import.js');
 		
 		echo $this->fetch('meta');
@@ -86,9 +88,11 @@
 					</li>
 				</ul>	
 				
-				<div id='weather'>
-					Weather info here ..
-				</div>				
+				<div class='weather'>
+					<div id='city' class='rotate_minus_90_degrees'>Loading...</div>
+					<div id='todayHighLow'></div>
+					<div id='currentTempAndCurrentThumbail'></div>
+				</div>	<!-- end class weather -->			
 				
 			</div> <!-- end class grid_14 -->
 		</div> <!-- end class container_16 -->
