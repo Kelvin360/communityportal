@@ -81,16 +81,16 @@
 		
 	<div class='socialMarktplaatsServiceExchange radius_3px'>
 				<div style="padding: 2px; overflow:auto; white-space: nowrap">
-					<img src="./img/tiles1.png" alt="Social market Tiles" height="140px">
-					<img src="./img/tiles2.png" alt="Social market Tiles" height="140px">
-					<img src="./img/tiles3.png" alt="Social market Tiles" height="140px">
-					<img src="./img/tiles4.png" alt="Social market Tiles" height="140px">
-					<img src="./img/tiles5.png" alt="Social market Tiles" height="140px">
-					<img src="./img/tiles1.png" alt="Social market Tiles" height="140px">
-					<img src="./img/tiles2.png" alt="Social market Tiles" height="140px">
-					<img src="./img/tiles3.png" alt="Social market Tiles" height="140px">
-					<img src="./img/tiles4.png" alt="Social market Tiles" height="140px">
-					<img src="./img/tiles5.png" alt="Social market Tiles" height="140px">
+					<img src="./img/tiles1.png" alt="Social market Tiles" height="100%">
+					<img src="./img/tiles2.png" alt="Social market Tiles" height="100%">
+					<img src="./img/tiles3.png" alt="Social market Tiles" height="100%">
+					<img src="./img/tiles4.png" alt="Social market Tiles" height="100%">
+					<img src="./img/tiles5.png" alt="Social market Tiles" height="100%">
+					<img src="./img/tiles1.png" alt="Social market Tiles" height="100%">
+					<img src="./img/tiles2.png" alt="Social market Tiles" height="100%">
+					<img src="./img/tiles3.png" alt="Social market Tiles" height="100%">
+					<img src="./img/tiles4.png" alt="Social market Tiles" height="100%">
+					<img src="./img/tiles5.png" alt="Social market Tiles" height="100%">
 				</div>
 	</div><!-- end class socialMarktplaatsServiceExchange -->
 </div>
