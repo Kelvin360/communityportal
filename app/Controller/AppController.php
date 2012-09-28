@@ -56,12 +56,21 @@ class AppController extends Controller
 	    'windowText' => 'My Position'
 	  );
 	
+	  $marker_options = array(
+	    'showWindow' => true,
+	    'windowText' => 'This is the Marker TEXT',
+	    'markerTitle' => 'This is the marker TITLE',
+	    'markerIcon' => 'http://labs.google.com/ridefinder/images/mm_20_purple.png',
+	    'markerShadow' => 'http://labs.google.com/ridefinder/images/mm_20_purpleshadow.png',
+	  );	
+	
 	  $directions_options = array(
 	    'travelMode' => "WALKING",
 	    'directionsDiv' => 'directions',
 	  );		
 		
 		$this->set('map_options', $map_options);
+		$this->set('marker_options', $marker_options);
 		$this->set('directions_options', $directions_options);
 		$this->set('base_url', Configure::read('system.root'));		
 	}

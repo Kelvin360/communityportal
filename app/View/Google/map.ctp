@@ -16,7 +16,8 @@
 	<?php 
 		if(trim(empty($from)) && trim(empty($to)))
 		{
-			echo $this->GoogleMap->map($map_options);
+				echo $this->GoogleMap->map($map_options);
+				echo $this->GoogleMap->addMarker("map_canvas", 1, "Princetonlaan Utrecht", $marker_options); 
 		}
 		else
 		{
