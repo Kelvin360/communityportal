@@ -40,6 +40,7 @@
 			<?php endfor;?>
 	</div> <!-- end class googleStream -->
 
+<<<<<<< HEAD
 	<!-- ####### SOCIAL COMMUNITY PICTURES ######### -->
 	<!-- ####### SOCIAL COMMUNITY PICTURES ######### -->
 	<!-- ####### SOCIAL COMMUNITY PICTURES ######### -->		
@@ -47,6 +48,21 @@
 	<div class='socialCommunityPictures'>
 		
 	</div> <!-- end class socialCommunityPictures -->
+=======
+	<div style="float: right; width: 58%; height:150px; margin-left:5px; border: 1px dotted #CCC">
+
+		<div style="padding: 5px; overflow:auto; white-space: nowrap">
+			<img src="./img/social1.jpeg" alt="Social pictures" height="140px" >
+			<img src="./img/social2.jpeg" alt="Social pictures" height="140px" >
+			<img src="./img/social3.jpeg" alt="Social pictures" height="140px" >
+			<img src="./img/social4.jpeg" alt="Social pictures" height="140px" >
+			<img src="./img/social5.jpeg" alt="Social pictures" height="140px" >
+			<img src="./img/social6.jpeg" alt="Social pictures" height="140px" >
+			<img src="./img/social7.jpeg" alt="Social pictures" height="140px" >
+			
+		</div>
+	</div>
+>>>>>>> scrollable community images
 
 	<!-- ####### CALENDAR and GOOGLE MAP ######### -->
 	<!-- ####### CALENDAR and GOOGLE MAP ######### -->
