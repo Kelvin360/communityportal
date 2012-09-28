@@ -49,10 +49,7 @@
 			</p>
 		</div>
 		<div style="float: right; width: 49%; height:100%; ;margin-left:5px; border: 1px dotted #CCC;">
-
-			<p>
-				<?php echo $this->GoogleMap->map($map_options); ?>
-			</p>
+			<?php echo $this->GoogleMap->map($map_options); ?>
 		</div>
 	</div>
 	<div style="float: right; width: 58%; height:220px; margin-top:5px; margin-left: 5px; border: 1px dotted #CCC;">
@@ -67,8 +64,9 @@
 
 
 
-<div style='float: right; width: 25%; height:600px; overflow: auto; border: 1px dotted #CCC;'>
-	<h1 = >Our community </h1>
+<div class='socialCommunity_container radius_3px'>
+
+	<h2>Our community </h2>
 
 	<ul id='socialCommunityMembers'>
 		<?php for($i = 0; $i <= 25; $i++):?>
