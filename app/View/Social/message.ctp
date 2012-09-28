@@ -44,9 +44,10 @@
 
 		<div style="float: left; width: 48%%; height:100%; border: 1px dotted #CCC;">
 
-			<p>
-				Calendar
-			</p>
+			<img src="./img/Calendar_activity_view.png" alt="Calendar View" width="100%" height="100%" >
+			
+
+	
 		</div>
 		<div style="float: right; width: 49%; height:100%; ;margin-left:5px; border: 1px dotted #CCC;">
 			<?php echo $this->GoogleMap->map($map_options); ?>
