@@ -46,7 +46,7 @@ $(document).ready(function()
 			},
 	        error: function(error) 
 			{ 
-				$(".weather").html('Yahoo weather API unresponsive.');
+				$(".weather").html('Yahoo weather API unresponsive :(');
 			}
 	});	
 	
