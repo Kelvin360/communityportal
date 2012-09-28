@@ -33,12 +33,9 @@
 			<?php endfor;?>
 	</div> <!-- end class googleStream -->
 
-	<div style="float: right; width: 58%; height:150px; margin-left:5px; border: 1px dotted #CCC;">
-
-		<p>
-			Community pictures
-		</p>
-	</div>
+	<div class='socialCommunityPictures'>
+		
+	</div> <!-- end class socialCommunityPictures -->
 
 	<div style="float: right; width: 58%; padding:0px; height: 220px; margin-left: 5px; margin-top: 5px;">
 

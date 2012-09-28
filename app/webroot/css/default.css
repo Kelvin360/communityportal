@@ -422,4 +422,13 @@ ul#menu_content li:first-child, ul#footer_content li:first-child
 {
 	margin: 0px 0px 10px 0px;
 	padding: 15px 5px 5px 5px;
+}
+
+.socialCommunityPictures
+{
+	float: right; 
+	width: 58%; 
+	height:150px; 
+	margin-left:5px; 
+	border: 1px dotted #CCC;
 }	
