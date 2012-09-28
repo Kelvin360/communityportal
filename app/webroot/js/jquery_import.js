@@ -84,6 +84,7 @@ $(document).ready(function()
 			closeClick	: false,
 			openEffect	: 'none',
 			closeEffect	: 'none',
+			scrolling	: 'no',
 			type:         'ajax', 
 			afterClose	: function() {
 				//location.reload();
