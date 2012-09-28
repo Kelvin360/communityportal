@@ -9,7 +9,7 @@
 				<div class='user radius_3px'>
 					<img class='radius_3px' src='./img/googleStream_user.jpg' alt='Darrel Farro'>
 					<span id='userName'>Darrel Farro</span>
-				</div>
+				</div> <!-- end class user -->
 				<div class='features radius_3px'>
 					<?php 
 					echo $this->Form->input('post', 
@@ -27,7 +27,7 @@
 				<div class='user radius_3px'>
 					<img class='radius_3px' src='./img/googleStream_user2.jpg'>
 					<span id='userName'>Saki Webo</span>
-				</div>	
+				</div>	<!-- end class user -->
 						
 				<div class='features radius_3px'>
 					<p>
@@ -44,7 +44,7 @@
 	<!-- ####### SOCIAL COMMUNITY PICTURES ######### -->
 	<!-- ####### SOCIAL COMMUNITY PICTURES ######### -->		
 
-	<div class='socialCommunityPictures'>
+	<div class='socialCommunityPictures radius_3px'>
 		
 		<div style="padding: 5px; overflow:auto; white-space: nowrap">
 			<img src="./img/social1.jpeg" alt="Social pictures" height="140px" >
@@ -64,13 +64,15 @@
 	<!-- ####### CALENDAR and GOOGLE MAP ######### -->
 	<!-- ####### CALENDAR and GOOGLE MAP ######### -->		
 
-	<div style="float: right; width: 58%; padding:0px; height: 220px; margin-left: 5px; margin-top: 5px;">
-		<div style="float: left; width: 48%%; height:100%; border: 1px dotted #CCC;">
+	<div class='radius_3px' style="float: right; width: 58%; padding:0px; height: 220px; margin-left: -10px; border: 1px solid #C4C4C4;">
+
+		<div class='radius_3px' style="float: left; width: 48%%; height:100%;">
 			<img src="./img/Calendar_activity_view.png" alt="Calendar View" width="100%" height="100%" >
 		</div>		
-		<div style="float: right; width: 49%; height:100%; ;margin-left:5px; border: 1px dotted #CCC;">
+		<div class='radius_3px' style="float: right; width: 49%; height:100%; ;margin-left:5px;">
 			<?php echo $this->GoogleMap->map($map_options); ?>
 		</div>
+		
 	</div>
 	
 	<!-- ####### MARKTPLAATS service Exchange ######### -->
@@ -78,9 +80,7 @@
 	<!-- ####### MARKTPLAATS service Exchange ######### -->		
 		
 	<div class='socialMarktplaatsServiceExchange radius_3px'>
-		<div class='posts'>
-			:)
-		</div>
+		here
 	</div>
 </div>
 

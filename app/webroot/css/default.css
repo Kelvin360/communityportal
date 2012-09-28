@@ -371,21 +371,26 @@ ul#menu_content li:first-child, ul#footer_content li:first-child
 	overflow-y: auto;
 }
 
-.googleStream .posts, .googleStream .stream
+.googleStream .posts, 
+.googleStream .stream
 {
 	width: 99%;
 	height: 173px;
 	margin: 0px 0px 10px 0px;
 }
 
-.googleStream .posts .user, .googleStream .stream .user
+.googleStream .posts .user, 
+.googleStream .stream .user, 
+.socialMarktplaatsServiceExchange .posts .user
 {
 	float: left;
 	width: 50px;
 	height: 50px;
 }
 
-.googleStream .posts .user #userName, .googleStream .stream .user #userName
+.googleStream .posts .user #userName,
+.googleStream .stream .user #userName,
+.socialMarktplaatsServiceExchange .posts .user #userName
 {
 	font-size: 9px;
 	font-style: italic;
@@ -393,7 +398,8 @@ ul#menu_content li:first-child, ul#footer_content li:first-child
 	margin: 0px;
 }
 
-.googleStream .posts .features, .googleStream .stream .features
+.googleStream .posts .features, 
+.googleStream .stream .features
 {
 	float: right;
 	width: 240px;
@@ -410,7 +416,10 @@ ul#menu_content li:first-child, ul#footer_content li:first-child
 	color: #A9A9A9;
 }
 
-.googleStream .posts .features input, .googleStream .posts .features textarea
+.googleStream .posts .features input, 
+.googleStream .posts .features textarea
+.socialMarktplaatsServiceExchange .posts .features input, 
+.socialMarktplaatsServiceExchange .posts .features textarea
 {
 	border: 1px solid #CCC;
 	resize: none;
@@ -437,22 +446,32 @@ ul#menu_content li:first-child, ul#footer_content li:first-child
 	float: right; 
 	width: 58%; 
 	height:150px; 
-	margin-left:5px; 
-	border: 1px dotted #CCC;
+ 	margin: 0px 0px 10px 5px;
+	border: 1px solid #C4C4C4;
 }
 
 .socialMarktplaatsServiceExchange
 {
 	float: right; 
 	width: 58%; 
-	height: 152px; 
+	height: 149px; 
 	margin-top:5px; 
 	margin-left: 5px; 
-	border: 1px solid red;	
+	border: 1px solid #C4C4C4;	
 }
 
 .socialMarktplaatsServiceExchange .posts
-{
-	width: 100%;
+{	
+	width: 99%;
 	height: inherit;
+	margin: 0px 0px 10px 0px;	
+}
+
+.socialMarktplaatsServiceExchange .posts .features
+{
+	float: right;
+	width: 375px;
+	height: 100px;
+	border: 1px solid #C4C4C4;
+	background-color: #F1F1F1;
 }
