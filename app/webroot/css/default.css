@@ -360,3 +360,47 @@ ul#menu_content li:first-child, ul#footer_content li:first-child
 	color: #CCC;
 }
 
+.googleStream
+{
+	float: left; 
+	width: 40%; 
+	height: 100%; 
+	overflow-y: auto;
+}
+
+.googleStream .posts, .googleStream .stream
+{
+	width: 99%;
+	height: 173px;
+	margin: 0px 0px 10px 0px;
+}
+
+.googleStream .posts .user, .googleStream .stream .user
+{
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+.googleStream .posts .features, .googleStream .stream .features
+{
+	float: right;
+	width: 240px;
+	height: 170px;
+	border: 1px solid #C4C4C4;
+	background-color: #F1F1F1;
+}
+
+.googleStream .stream .features p
+{
+	padding: 5px;
+	font-size: 11px;
+	font-style: italic;
+	color: #A9A9A9;
+}
+
+.googleStream .posts .features input, .googleStream .posts .features textarea
+{
+	border: 1px solid #CCC;
+	resize: none;
+}	

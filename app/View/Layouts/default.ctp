@@ -73,7 +73,7 @@
 	<header>
 		<div class='container_16' style='height: inherit;'>
 			<div class='grid_14' style='margin: 0px 72px 0px 72px; height: 45px;'>
-				
+			
 				<ul id='menu_content'>
 					<li id='activities'>
 						Activities
