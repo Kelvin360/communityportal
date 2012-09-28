@@ -1,4 +1,9 @@
 <div style='float: left; width: 74%;padding: 0px; height: 600px; overflow: none;'>
+	
+	<!-- ####### GOOGLE STREAM ######### -->
+	<!-- ####### GOOGLE STREAM ######### -->
+	<!-- ####### GOOGLE STREAM ######### -->		
+	
 	<div class='googleStream'>
 			<div class='posts radius_3px'>
 				<div class='user radius_3px'>
@@ -33,23 +38,32 @@
 			<?php endfor;?>
 	</div> <!-- end class googleStream -->
 
+	<!-- ####### SOCIAL COMMUNITY PICTURES ######### -->
+	<!-- ####### SOCIAL COMMUNITY PICTURES ######### -->
+	<!-- ####### SOCIAL COMMUNITY PICTURES ######### -->		
+
 	<div class='socialCommunityPictures'>
 		
 	</div> <!-- end class socialCommunityPictures -->
 
+	<!-- ####### CALENDAR and GOOGLE MAP ######### -->
+	<!-- ####### CALENDAR and GOOGLE MAP ######### -->
+	<!-- ####### CALENDAR and GOOGLE MAP ######### -->		
+
 	<div style="float: right; width: 58%; padding:0px; height: 220px; margin-left: 5px; margin-top: 5px;">
-
 		<div style="float: left; width: 48%%; height:100%; border: 1px dotted #CCC;">
-
 			<img src="./img/Calendar_activity_view.png" alt="Calendar View" width="100%" height="100%" >
-			
-
-	
-		</div>
+		</div>		
 		<div style="float: right; width: 49%; height:100%; ;margin-left:5px; border: 1px dotted #CCC;">
 			<?php echo $this->GoogleMap->map($map_options); ?>
 		</div>
 	</div>
+	
+	<!-- ####### MARKTPLAATS service Exchange ######### -->
+	<!-- ####### MARKTPLAATS service Exchange ######### -->
+	<!-- ####### MARKTPLAATS service Exchange ######### -->		
+		
+	
 	<div style="float: right; width: 58%; height:220px; margin-top:5px; margin-left: 5px; border: 1px dotted #CCC;">
 
 		<p>
