@@ -7,7 +7,8 @@
 	<div class='googleStream'>
 			<div class='posts radius_3px'>
 				<div class='user radius_3px'>
-					<img class='radius_3px' src='./img/googleStream_user.jpg'>
+					<img class='radius_3px' src='./img/googleStream_user.jpg' alt='Darrel Farro'>
+					<span id='userName'>Darrel Farro</span>
 				</div>
 				<div class='features radius_3px'>
 					<?php 
@@ -25,6 +26,7 @@
 			<div class='stream'>
 				<div class='user radius_3px'>
 					<img class='radius_3px' src='./img/googleStream_user2.jpg'>
+					<span id='userName'>Saki Webo</span>
 				</div>	
 						
 				<div class='features radius_3px'>
@@ -63,9 +65,7 @@
 	<!-- ####### MARKTPLAATS service Exchange ######### -->
 	<!-- ####### MARKTPLAATS service Exchange ######### -->		
 		
-	
-	<div style="float: right; width: 58%; height:220px; margin-top:5px; margin-left: 5px; border: 1px dotted #CCC;">
-
+	<div class='socialMarktplaatsServiceExchange'>
 		<p>
 			Marktplaats &amp; Service Exchange
 		</p>

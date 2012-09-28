@@ -385,6 +385,14 @@ ul#menu_content li:first-child, ul#footer_content li:first-child
 	height: 50px;
 }
 
+.googleStream .posts .user #userName, .googleStream .stream .user #userName
+{
+	font-size: 9px;
+	font-style: italic;
+	padding: 0px;
+	margin: 0px;
+}
+
 .googleStream .posts .features, .googleStream .stream .features
 {
 	float: right;
@@ -431,4 +439,14 @@ ul#menu_content li:first-child, ul#footer_content li:first-child
 	height:150px; 
 	margin-left:5px; 
 	border: 1px dotted #CCC;
+}
+
+.socialMarktplaatsServiceExchange
+{
+	float: right; 
+	width: 58%; 
+	height:220px; 
+	margin-top:5px; 
+	margin-left: 5px; 
+	border: 1px dotted #CCC;	
 }	
