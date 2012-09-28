@@ -183,12 +183,14 @@ ul#menu_content li:first-child, ul#footer_content li:first-child
 	border-left: 1px solid #A9A9A9;
 	width: 200px;
 	height: 45px;
+	text-align: left;
+	padding: 2px;
 }
 
 .weather #city
 {
 	position: absolute;
-	left: -26px;
+	left: -27px;
 	top: 15px;
 	font-size: 12px;
 	font-style: none;
