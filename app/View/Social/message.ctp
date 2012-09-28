@@ -1,4 +1,4 @@
-<div style='float: left; width: 74%;padding: 0px; height: 600px; overflow: none;'>
+<div style='float: left; width: 74%;padding: 0px; height: 99%; overflow: none;'>
 	
 	<!-- ####### GOOGLE STREAM ######### -->
 	<!-- ####### GOOGLE STREAM ######### -->
@@ -77,14 +77,12 @@
 	<!-- ####### MARKTPLAATS service Exchange ######### -->
 	<!-- ####### MARKTPLAATS service Exchange ######### -->		
 		
-	<div class='socialMarktplaatsServiceExchange'>
-		<p>
-			Marktplaats &amp; Service Exchange
-		</p>
+	<div class='socialMarktplaatsServiceExchange radius_3px'>
+		<div class='posts'>
+			:)
+		</div>
 	</div>
 </div>
-
-
 
 
 
