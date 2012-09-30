@@ -22,7 +22,6 @@
 			</div> <!-- end class posts -->
 			
 			<?php for($i = 0; $i <= 10; $i++):?>
-			
 			<div class='stream'>
 				<div class='user radius_3px'>
 					<img class='radius_3px' src='./img/googleStream_user2.jpg'>
