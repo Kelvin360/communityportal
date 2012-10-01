@@ -40,6 +40,7 @@
 		echo $this->Html->script('jquery.fancybox-thumbs.js');
 		echo $this->Html->script('jquery.fancybox-thumbs.js');
 		echo $this->Html->script('jquery.simpleWeather.js');
+		echo $this->Html->script('jquery.easypaginate.js');		
 		echo $this->Html->script('jquery_import.js');
 		
 		echo $this->fetch('meta');
@@ -77,13 +78,17 @@
 			<div class='grid_14' style='margin: 0px 72px 0px 72px; height: 45px;'>
 			
 				<ul id='menu_content'>
-					<li id='activities'>
+					<li id='slider_' class='demo'>
+						Home
+					</li>					
+					
+					<li id='activities' class='demo'>
 						Activities
 					</li>
-					<li id='events'>
+					<li id='events' class='demo'>
 						Events
 					</li>
-					<li id='guestbook'>
+					<li id='guestbook' class='demo'>
 						Guestbook
 					</li>
 				</ul>	
@@ -121,19 +126,33 @@
 			</div> <!-- end theActivities -->			
 									
 		</div> <!-- end class container_16 -->
-	</div> <!-- end class slider_container -->
+	</div> <!-- end class sliderEventsActivities_container -->
 	
 	<!-- ##############  FOOTER ################ -->
 	<!-- ##############  FOOTER ################ -->
-	
 	<footer>
 		<div class='container_16' style='height: inherit;'>
 			<div class='grid_14' style='margin: 0px 72px 0px 72px; height: inherit;'>
 				
 				<ul id='footer_content' style='height: inherit;'>
-					<li>Ad #1 (&euro; 20)</li>
-					<li>Ad #2 (&euro; 20)</li>
-					<li>Ad #3 (&euro; 20)</li>
+					<li class='radius_3px inner_shadow'><img src='./img/ads1.jpeg' alt='' /></li>
+					<li class='radius_3px inner_shadow'><img src='./img/ads2.jpeg' alt='' /></li>
+					<li class='radius_3px inner_shadow'><img src='./img/ads3.jpeg' alt='' /></li>
+					<li class='radius_3px inner_shadow'><img src='./img/ads4.jpeg' alt='' /></li>
+					<li class='radius_3px inner_shadow'><img src='./img/ads5.jpeg' alt='' /></li>
+					<li class='radius_3px inner_shadow'><img src='./img/ads1.jpeg' alt='' /></li>
+					<li class='radius_3px inner_shadow'><img src='./img/ads1.jpeg' alt='' /></li>
+					<li class='radius_3px inner_shadow'><img src='./img/ads2.jpeg' alt='' /></li>
+					<li class='radius_3px inner_shadow'><img src='./img/ads3.jpeg' alt='' /></li>
+					<li class='radius_3px inner_shadow'><img src='./img/ads4.jpeg' alt='' /></li>
+					<li class='radius_3px inner_shadow'><img src='./img/ads5.jpeg' alt='' /></li>
+					<li class='radius_3px inner_shadow'><img src='./img/ads1.jpeg' alt='' /></li>
+					<li class='radius_3px inner_shadow'><img src='./img/ads1.jpeg' alt='' /></li>
+					<li class='radius_3px inner_shadow'><img src='./img/ads2.jpeg' alt='' /></li>
+					<li class='radius_3px inner_shadow'><img src='./img/ads3.jpeg' alt='' /></li>
+					<li class='radius_3px inner_shadow'><img src='./img/ads4.jpeg' alt='' /></li>
+					<li class='radius_3px inner_shadow'><img src='./img/ads5.jpeg' alt='' /></li>
+					<li class='radius_3px inner_shadow'><img src='./img/ads1.jpeg' alt='' /></li>																														
 				</ul>					
 				
 			</div> <!-- end class grid_14 -->

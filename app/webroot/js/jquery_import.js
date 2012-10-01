@@ -57,6 +57,15 @@ $(document).ready(function()
 	/*######################## OTHER ########################################*/
 			
 	//$(this).popup(60); //1 minute with no activity
+	$(".demo" ).button();
+	
+	$('ul#footer_content').easyPaginate({
+		step: 3,
+		auto: true,
+		nextprev: false,
+		numeric: false,
+		clickstop: true
+	});
 	
     $('#slider').nivoSlider({
         effect: 'boxRainGrow', // Specify sets like: 'fold,fade,sliceDown, boxRainGrow'
@@ -83,7 +92,7 @@ $(document).ready(function()
 		
 	$('#menu_content li').click(function()
 	{
-	    var id = $(this).attr('id');
+	    var id = $(this).attr('id').replace('_', '');
 		$('.sliderEventsActivities_container').children().find('.grid_14').each(function()
 		{
 			var display	=	$(this).css('display');

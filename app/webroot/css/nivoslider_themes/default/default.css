@@ -30,7 +30,7 @@ Supports Thumbs: true
 .theme-default .nivo-controlNav {
 	/*text-align: center;
 	padding: 0px 0px 0px 0px;*/
-	display: none; /*to show the navigators, remove display: none;*/
+	/*to show the navigators, remove display: none;*/
 	text-align: center;
 	padding: 0;
 	position: relative;
