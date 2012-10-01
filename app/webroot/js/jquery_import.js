@@ -56,7 +56,7 @@ $(document).ready(function()
 	/*######################## OTHER ########################################*/
 	/*######################## OTHER ########################################*/
 			
-	//$(this).popup(60); //1 minute with no activity
+	//$(this).popup(60); //1 minute with no activity -- disabled because it freezes the webbrowser
 	$(".demo" ).button();
 	
 	$('ul#footer_content').easyPaginate({
@@ -64,7 +64,9 @@ $(document).ready(function()
 		auto: true,
 		nextprev: false,
 		numeric: false,
-		clickstop: true
+		clickstop: true,
+		pause: 5000, 
+		delay: 0
 	});
 	
     $('#slider').nivoSlider({

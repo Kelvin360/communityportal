@@ -135,24 +135,26 @@
 			<div class='grid_14' style='margin: 0px 72px 0px 72px; height: inherit;'>
 				
 				<ul id='footer_content' style='height: inherit;'>
-					<li class='radius_3px inner_shadow'><img src='./img/ads1.jpeg' alt='' /></li>
-					<li class='radius_3px inner_shadow'><img src='./img/ads2.jpeg' alt='' /></li>
-					<li class='radius_3px inner_shadow'><img src='./img/ads3.jpeg' alt='' /></li>
-					<li class='radius_3px inner_shadow'><img src='./img/ads4.jpeg' alt='' /></li>
-					<li class='radius_3px inner_shadow'><img src='./img/ads5.jpeg' alt='' /></li>
-					<li class='radius_3px inner_shadow'><img src='./img/ads1.jpeg' alt='' /></li>
-					<li class='radius_3px inner_shadow'><img src='./img/ads1.jpeg' alt='' /></li>
-					<li class='radius_3px inner_shadow'><img src='./img/ads2.jpeg' alt='' /></li>
-					<li class='radius_3px inner_shadow'><img src='./img/ads3.jpeg' alt='' /></li>
-					<li class='radius_3px inner_shadow'><img src='./img/ads4.jpeg' alt='' /></li>
-					<li class='radius_3px inner_shadow'><img src='./img/ads5.jpeg' alt='' /></li>
-					<li class='radius_3px inner_shadow'><img src='./img/ads1.jpeg' alt='' /></li>
-					<li class='radius_3px inner_shadow'><img src='./img/ads1.jpeg' alt='' /></li>
-					<li class='radius_3px inner_shadow'><img src='./img/ads2.jpeg' alt='' /></li>
-					<li class='radius_3px inner_shadow'><img src='./img/ads3.jpeg' alt='' /></li>
-					<li class='radius_3px inner_shadow'><img src='./img/ads4.jpeg' alt='' /></li>
-					<li class='radius_3px inner_shadow'><img src='./img/ads5.jpeg' alt='' /></li>
-					<li class='radius_3px inner_shadow'><img src='./img/ads1.jpeg' alt='' /></li>																														
+					<li><img class='shadow_1px radius_3px' src='./img/ads1.jpeg' alt='' /></li>
+					<li><img class='shadow_1px radius_3px' src='./img/ads2.jpeg' alt='' /></li>
+					<li><img class='shadow_1px radius_3px' src='./img/ads3.jpeg' alt='' /></li>
+					<li><img class='shadow_1px radius_3px' src='./img/ads4.jpeg' alt='' /></li>
+					<li><img class='shadow_1px radius_3px' src='./img/ads5.jpeg' alt='' /></li>
+					<li><img class='shadow_1px radius_3px' src='./img/ads1.jpeg' alt='' /></li>
+
+					<li><img class='shadow_1px radius_3px' src='./img/ads1.jpeg' alt='' /></li>
+					<li><img class='shadow_1px radius_3px' src='./img/ads2.jpeg' alt='' /></li>
+					<li><img class='shadow_1px radius_3px' src='./img/ads3.jpeg' alt='' /></li>
+					<li><img class='shadow_1px radius_3px' src='./img/ads4.jpeg' alt='' /></li>
+					<li><img class='shadow_1px radius_3px' src='./img/ads5.jpeg' alt='' /></li>
+					<li><img class='shadow_1px radius_3px' src='./img/ads1.jpeg' alt='' /></li>
+					
+					<li><img class='shadow_1px radius_3px' src='./img/ads1.jpeg' alt='' /></li>
+					<li><img class='shadow_1px radius_3px' src='./img/ads2.jpeg' alt='' /></li>
+					<li><img class='shadow_1px radius_3px' src='./img/ads3.jpeg' alt='' /></li>
+					<li><img class='shadow_1px radius_3px' src='./img/ads4.jpeg' alt='' /></li>
+					<li><img class='shadow_1px radius_3px' src='./img/ads5.jpeg' alt='' /></li>
+					<li><img class='shadow_1px radius_3px' src='./img/ads1.jpeg' alt='' /></li>																																																					
 				</ul>					
 				
 			</div> <!-- end class grid_14 -->
