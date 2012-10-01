@@ -114,9 +114,9 @@ footer h3
 	padding:0px;
 }*/
 
-footer .grid_4
+footer .grid_14
 {
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 ul#socialCommunityMembers
@@ -150,7 +150,7 @@ ul#footer_content li
 {
 	float: left;
 	text-align: center;
-	margin: 10px 0px 2px 20px;
+	margin: 15px 0px 2px 20px;
 	width: 322px;
 	height: 95px;
 	cursor: pointer;
