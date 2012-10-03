@@ -83,10 +83,10 @@
 					</li>					
 					
 					<li id='activities' class='demo'>
-						Activities
+						Community Activities
 					</li>
 					<li id='events' class='demo'>
-						Events
+						Local Events
 					</li>
 					<li id='guestbook' class='demo'>
 						Guestbook

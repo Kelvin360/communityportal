@@ -1,8 +1,1 @@
-<div class="slider-wrapper theme-default">
-    <div id="slider" class="nivoSlider">
-        <img src="./img/slider_1.jpg" alt="" />
-        <img src="./img/slider_2.png" alt="" />
-        <img src="./img/slider_3.jpg" alt="" />
-        <img src="./img/slider_4.jpeg" alt="" />
-    </div>
-</div> <!-- end slider-wrapper theme-default -->
+<iframe width="1006" height="605" src="http://www.youtube.com/embed/xAalh8nIomc?rel=0&autoplay=1&showinfo=0&HD=1&controls=0" frameborder="0"></iframe>
