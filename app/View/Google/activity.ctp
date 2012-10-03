@@ -58,7 +58,8 @@
 				echo $this->GoogleMap->addMarker("map_canvas", 3, "Amsterdams Historisch Museum", $marker_options);
 				echo $this->GoogleMap->addMarker("map_canvas", 4, "Agnietenkapel Amsterdam", $marker_options);
 				echo $this->GoogleMap->addMarker("map_canvas", 5, "Stayokay Amsterdam Stadsdoelen Amsterdam", $marker_options);
-				echo $this->GoogleMap->addMarker("map_canvas", 6, "Radisson Blu Hotel Amsterdam", $marker_options);				
+				echo $this->GoogleMap->addMarker("map_canvas", 6, "Radisson Blu Hotel Amsterdam", $marker_options);
+				echo $this->GoogleMap->addMarker("map_canvas", 7, "Amsterdam American", $marker_options);				
 			}
 		?>
 	</div>

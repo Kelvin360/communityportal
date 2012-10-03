@@ -18,6 +18,9 @@
 		{
 				echo $this->GoogleMap->map($map_options);
 				echo $this->GoogleMap->addMarker("map_canvas", 1, "Princetonlaan Utrecht", $marker_options);
+				echo $this->GoogleMap->addMarker("map_canvas", 2, "Gebouw aardwetenschap Utrecht", $marker_options);
+				echo $this->GoogleMap->addMarker("map_canvas", 3, "Aard-groot Utrecht", $marker_options);
+				echo $this->GoogleMap->addMarker("map_canvas", 4, "Caroline Bleekergebouw Utrecht", $marker_options);		
 		}
 		else
 		{
