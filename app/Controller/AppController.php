@@ -60,7 +60,8 @@ class AppController extends Controller
 	    'showWindow' => true,
 	    'windowText' => 'This is the Marker TEXT',
 	    'markerTitle' => 'This is the marker TITLE',
-	    'markerIcon' => 'http://labs.google.com/ridefinder/images/mm_20_purple.png',
+	    'markerIcon' => 'http://www.smsaruba.com/communityportal/business.png',
+	//'http://labs.google.com/ridefinder/images/mm_20_purple.png',
 	    'markerShadow' => 'http://labs.google.com/ridefinder/images/mm_20_purpleshadow.png',
 	  );	
 	
